@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital@0;1&display=swap');
+
+* {
+
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(#01002d, #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 79%;
+    height: 640px;
+    background-image:
+        linear-gradient(to right, #01022de5, #00000088),
+        url(genshin\ embact\ new.jpg);
+    background-position: center;
+
+}
+
+.container:hover {
+    width: 79%;
+    height: 640px;
+    background-image:
+        linear-gradient(to right, #01022de5, transparent),
+        url(genshin\ 2.jpg)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul {
+
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    border-bottom: 2px solid transparent;
+
+}
+
+ul a:hover {
+    border-bottom-color: white;
+}
+
+.content {
+    width: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.content h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.content p {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 600px;
+    padding: 20px 0;
+}
+
+.content button {
+
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
